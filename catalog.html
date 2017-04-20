@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+	<html lang="ru">
+		<head>
+			<meta charset="utf-8">
+			<title>Нердс Каталог</title>
+		</head>
+		<body>
+
+
+			<header class="main-header">			
+				<div class="conteiner">
+          <div class="main-header-top">
+            <div class="catalog-logo">
+              <a href="#">
+                <img src="img/catalog-logo.png" width="160" height="65" alt="Дизайн студия «Нердс»">
+              </a>
+            </div>
+        		<nav class="main-navigation"> 
+          		<ul>
+          			<li>
+          				<a href="#">Студия</a>
+          			</li>
+          			<li>
+            			<a href="#">Клиенты</a>
+            		</li>
+            		<li>
+            			<a> Магазин </a>
+            		</li>
+            		<li>
+            			<a href="#">Контакты </a>
+          			</li>
+          		</ul> 				
+          	</nav>
+        		<a class="header-basket basket" href="#">
+              <span>Корзина</span>
+            </a>	                   
+          </div>
+          <div class="main-header-bottom">
+            <h1 class="catalog-title">Магазин готовых шаблонов</h1>  
+          </div>
+  			</div>
+			</header>
+
+
+			<main class="content">
+        <div class="conteiner">
+          <div class="side-left">
+            <div class="filter">
+              <div class="filter-value" data-min-price="0" data-max-price="15000">
+                <div class="filter-title">
+                  <span> Стоимость:</span>
+                </div>
+                <form class="filter-Value-content" action="https://echo.htmlacademy.ru" method="post">                
+                    <span class="money-right">
+                      <label for="filter-min-value"> от</label>
+                      <input id="filter-min-value" type="text" class="min-price" value="0" />
+                    </span>
+                    <span class="money-right">
+                      <label for="filter-max-value"> до</label>
+                      <input id="filter-max-value" type="text" class="max-price" value="15000" />
+                    </span>                
+                </form>
+              </div>
+
+              <div class="filter-grid">   <!-- знаю что блок с формами немного кривоват осталось понять как его допилить-->
+                <div class="filter-title">
+                  <span>Сетка:</span>
+                </div>
+                <form class="filter-grid-content"  action="https://echo.htmlacademy.ru" method="post">
+                  <label>
+                    <input type="radio" name="grid" checked="">
+                    <span>Адаптивная</span>
+                  </label>
+                  <label>
+                    <input type="radio" name="grid" >
+                    <span>Фиксированная</span>
+                  </label>
+                  <label>
+                    <input type="radio" name="grid" >
+                    <span>Резиновая</span>
+                  </label>              
+                </form>
+              </div>
+
+              <div class="filter-features">
+                <div class="filter-title">
+                  <span>особенности</span>
+                </div>
+                <form class="filter-features-content" action="https://echo.htmlacademy.ru" method="post">
+                  <label>
+                    <input type="checkbox" name="Слайдер" checked="">
+                    <span>Слайдер</span>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="Блок преимуществ" >
+                    <span>Блок преимуществ</span>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="Новости" checked="">
+                    <span>Новости</span>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="Галерея" >
+                    <span>Галерея</span>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="Корзина" >
+                    <span>Корзина</span>
+                  </label>
+                </form>
+              </div>
+
+              <div class="filter-button">
+              </div>            
+            </div>
+          </div>
+
+         
+          <div class="side-right"> <!-- в качестве идею попробовл с помощь формы и radio-->
+            <div class="sorting">
+              <div class="sorting-left">
+                  <span>СОРТИРОВАТЬ:</span>
+                </div>               
+              </div>
+              <div class="sorting-right">
+                <div class="sorting-right-type">
+                  <form class="filter-grid-content"  action="https://echo.htmlacademy.ru" method="post">
+                    <label>
+                      <input type="radio" name="sorting" checked="">
+                      <span>По цене</span>
+                      </label>
+                    <label>
+                      <input type="radio" name="sorting" >
+                      <span>По типу</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="sorting" >
+                      <span>По названию</span>
+                    </label>              
+                  </form>
+                </div>
+
+                <div class="sorting-right-switch">
+                  <form class="filter-grid-content"  action="https://echo.htmlacademy.ru" method="post">
+                    <input class="switch-bottom" type="radio" name="switch" checked="">                   
+                    <input class="switch-top" type="radio" name="switch" >                                            
+                  </form>
+                </div>
+              </div>              
+            </div>
+
+            <div class="goods-list">
+              <div class="goods-item-border">
+                <div class="goods-item">
+                  <div class="goods-img">
+                    <img src="img/foto11" alt="Sedona" width="360" height="576">
+                  </div>
+                  <div class="goods-info">
+                    <a href="#" class="goods-info-name">
+                      <span>Sedona</span>
+                      <span>Информационный сайт  для туристов</span>                      
+                    </a>
+                    <a class="btn btn-goods" href="#" >
+                      <span>9 900 руб.</span>
+                    </a>                    
+                  </div>
+                 </div>                 
+              </div>
+              <div class="goods-item-border">
+                <div class="goods-item">
+                  <div class="goods-img">
+                    <img src="img/foto12" alt="" width="360" height="576">
+                  </div>
+                  <div class="goods-info">
+                    <a href="#" class="goods-info-name">
+                      <span></span>
+                      <span></span>                      
+                    </a>
+                    <a class="btn btn-goods" href="#" >
+                      <span></span> 
+                    </a>                    
+                  </div>
+                 </div>                 
+              </div>
+              <div class="goods-item-border">
+                <div class="goods-item">
+                  <div class="goods-img">
+                    <img src="img/foto13" alt="" width="360" height="576">
+                  </div>
+                  <div class="goods-info">
+                    <a href="#" class="goods-info-name">
+                      <span></span>
+                      <span></span>                      
+                    </a>
+                    <a class="btn btn-goods" href="#" >
+                      <span></span> 
+                    </a>                    
+                  </div>
+                 </div>                 
+              </div>
+              <div class="goods-item-border">
+                <div class="goods-item">
+                  <div class="goods-img">
+                    <img src="img/foto14" alt="" width="360" height="576">
+                  </div>
+                  <div class="goods-info">
+                    <a href="#" class="goods-info-name">
+                      <span></span>
+                      <span></span>                      
+                    </a>
+                    <a class="btn btn-goods" href="#" >
+                      <span></span> 
+                    </a>                    
+                  </div>
+                 </div>                 
+              </div>
+              <div class="goods-item-border">
+                <div class="goods-item">
+                  <div class="goods-img">
+                    <img src="img/foto15" alt="" width="360" height="576">
+                  </div>
+                  <div class="goods-info">
+                    <a href="#" class="goods-info-name">
+                      <span></span>
+                      <span></span>                      
+                    </a>
+                    <a class="btn btn-goods" href="#" >
+                      <span></span> 
+                    </a>                    
+                  </div>
+                 </div>                 
+              </div>
+              <div class="goods-item-border">
+                <div class="goods-item">
+                  <div class="goods-img">
+                    <img src="img/foto16" alt="" width="360" height="576">
+                  </div>
+                  <div class="goods-info">
+                    <a href="#" class="goods-info-name">
+                      <span></span>
+                      <span></span>                      
+                    </a>
+                    <a class="btn btn-goods" href="#" >
+                      <span></span> 
+                    </a>                    
+                  </div>
+                 </div>                 
+              </div>              
+            </div>
+
+            <div class="namber-pages">
+              <a class="namber-pages-border" href="#">1</a>
+              <a class="namber-pages-border" href="#">2</a>
+              <a class="namber-pages-border" href="#">3</a>
+              <a class="btn btn-next" href="#">следующая</a>              
+            </div>
+          </div>  
+        </div>
+      </main>
+
+
+			<footer class="main-footer">
+        <div class="main-footer-top">
+          <div class="footer-map">
+            <img src="img/foto17" alt="Карта" width="1440" height="415">
+          </div> 
+          <div class="footer-adresse">
+            <div class="conteiner">
+              <b class="footer-adresse-name">NЁRDS DESIGN STUDIO</b>
+              <p class="footer-adresse-street">191186, Санкт-Петербург,  ул. Б. Конюшенная, д. 19/8</p>
+              <p class="footer-adresse-phone">  тел. +7 (812)275-75-75</p>
+              <a href="#" class="btn">Напишите нам</a>
+            </div>
+          </div>
+          <div class="footer-mark">
+            <img src="img/foto100" alt="Наше место раположение" width="155" height="190">
+          </div>        
+        </div>
+
+        <div class="main-footer-bottom">
+		      <div class="container">			
+			       <div class="footer-social">				
+				        <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+                <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+                <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+			       </div>
+			       <div class="footer-tagline">
+				        <p>Давайте дружить, это выгодно!</p>
+                <p>Скидка 10% для друзей из социальных сетей.</p>      			
+			       </div>
+		      </div>
+        </div>
+	    </footer>
+
+		</body>
+	</html>
