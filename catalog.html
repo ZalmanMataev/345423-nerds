@@ -3,6 +3,7 @@
 		<head>
 			<meta charset="utf-8">
 			<title>Нердс Каталог</title>
+      <link rel="stylesheet"  href="css/style.css">
 		</head>
 		<body>
 
@@ -12,7 +13,7 @@
           <div class="main-header-top">
             <div class="catalog-logo">
               <a href="#">
-                <img src="img/catalog-logo.png" width="160" height="65" alt="Дизайн студия «Нердс»">
+                <img src="img/nerds-logo.png" width="160" height="65" alt="Дизайн студия «Нердс»">
               </a>
             </div>
         		<nav class="main-navigation"> 
@@ -41,6 +42,8 @@
   			</div>
 			</header>
 
+      
+
 
 			<main class="content">
         <div class="conteiner">
@@ -48,9 +51,7 @@
             <div class="filter">
               <form class="filter-form" action="https://echo.htmlacademy.ru" method="get"> <!-- попробовал испрвить-->              
                 <div class="filter-value" >
-                  <div class="filter-title">
-                    <span> Стоимость:</span>
-                  </div>                                
+                  <h3 class="filter-title">Стоимость:</h3>                                
                   <input type="range" name="grid" >
                     <span class="money-right">
                       <label for="filter-min-value"> от</label>
@@ -63,9 +64,7 @@
                 </div>
 
                 <div class="filter-grid">   
-                  <div class="filter-title">
-                    <span>Сетка:</span>
-                  </div>               
+                  <h3 class="filter-title">Сетка:</h3>               
                   <label>
                     <input type="radio" name="grid" checked="">
                     <span>Адаптивная</span>
@@ -81,9 +80,7 @@
                 </div>
 
                 <div class="filter-features">
-                  <div class="filter-title">
-                    <span>особенности</span>
-                  </div>                
+                  <h3 class="filter-title">Особенности</h3>                
                   <label>
                     <input type="checkbox" name="Слайдер" checked="">
                     <span>Слайдер</span>
@@ -106,7 +103,7 @@
                   </label>                
                 </div>
               
-                <input class="btn" type="button" name="Показать" value="Показать">              
+                <input class="btn" type="submit" name="Показать" value="Показать">              
 
               </form>
             </div>
@@ -122,8 +119,7 @@
                 </div>               
               </div>
 
-              <form class="filter-grid-content"  action="https://echo.htmlacademy.ru" method="post">
-                <div class="sorting-right">
+              <form class="sorting-right"  action="https://echo.htmlacademy.ru" method="get">
                   <div class="sorting-right-type">                  
                     <label>
                       <input type="radio" name="sorting" checked="">
@@ -138,7 +134,6 @@
                       <span>По названию</span>
                     </label>                   
                   </div>
-                </div>
 
                 <div class="sorting-right-switch">                  
                   <input class="switch-bottom" type="radio" name="switch" checked="">                   
@@ -150,7 +145,7 @@
             <div class="goods-list">             
               <div class="goods-item">
                 <div class="goods-img">
-                  <img src="img/foto11" alt="Sedona" width="360" height="576">
+                  <img src="img/img-sedona.jpg" alt="Sedona" width="360" height="576">
                 </div>
                 <div class="goods-info">
                   <a href="#" class="goods-info-name">
@@ -165,7 +160,7 @@
              
               <div class="goods-item">
                 <div class="goods-img">
-                  <img src="img/foto12" alt="" width="360" height="576">
+                  <img src="img/img-pink.jpg" alt="" width="360" height="576">
                 </div>
                 <div class="goods-info">
                   <a href="#" class="goods-info-name">
@@ -180,7 +175,7 @@
              
               <div class="goods-item">
                 <div class="goods-img">
-                  <img src="img/foto13" alt="" width="360" height="576">
+                  <img src="img/img-barbershop.jpg" alt="" width="360" height="576">
                 </div>
                 <div class="goods-info">
                   <a href="#" class="goods-info-name">
@@ -196,7 +191,7 @@
               
               <div class="goods-item">
                 <div class="goods-img">
-                  <img src="img/foto13" alt="" width="360" height="576">
+                  <img src="img/img-mishka.jpg" alt="" width="360" height="576">
                 </div>
                 <div class="goods-info">
                   <a href="#" class="goods-info-name">
@@ -212,7 +207,7 @@
               
               <div class="goods-item">
                 <div class="goods-img">
-                  <img src="img/foto13" alt="" width="360" height="576">
+                  <img src="img/img-aplus.jpg" alt="" width="360" height="576">
                 </div>
                 <div class="goods-info">
                   <a href="#" class="goods-info-name">
@@ -228,7 +223,7 @@
              
               <div class="goods-item">
                 <div class="goods-img">
-                  <img src="img/foto13" alt="" width="360" height="576">
+                  <img src="img/img-kvast.jpg" alt="" width="360" height="576">
                 </div>
                 <div class="goods-info">
                   <a href="#" class="goods-info-name">
@@ -256,7 +251,7 @@
 			<footer class="main-footer">
         <div class="main-footer-top">
           <div class="footer-map">
-            <img src="img/foto17" alt="Карта" width="1440" height="415">
+            <img src="img/map.jpg" alt="Карта" width="1440" height="415">
           </div> 
           <div class="footer-adresse">
             <div class="conteiner">
@@ -277,14 +272,16 @@
 				        <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
                 <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
                 <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-			       </div>
+                
 			       <div class="footer-tagline">
-				        <p>Давайте дружить, это выгодно!</p>
-                <p>Скидка 10% для друзей из социальных сетей.</p>      			
+				        <p class="tagline-row1">Давайте дружить, это выгодно!</p>
+                <p class="tagline-row2">Скидка 10% для друзей из социальных сетей.</p>      			
 			       </div>
 		      </div>
         </div>
 	    </footer>
 
+
+    
 		</body>
 	</html>

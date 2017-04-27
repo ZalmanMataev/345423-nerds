@@ -1,0 +1,76 @@
+body {
+	font-size: 16px; 
+	line-height: 24px;
+	color: rgb(40, 49, 54);
+	font-weight: normal;
+	font-family: Roboto, sans-serif;
+
+}
+
+.index-content-title {
+	font-size: 55px;
+	line-height: 55px;
+	color: rgb(0, 0, 0);
+	font-weight: medium;	
+}
+
+
+.features-title{
+	font-size: 24px; 
+	line-height: 30px;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+}
+
+.promotion-title {
+	font-size: 45px; 
+	line-height: 45px;
+	color: rgb(0, 0, 0);
+	font-weight: medium;
+}
+
+.promotion-row2-title {
+	font-size: 16px; 
+	line-height: 24px;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+}
+
+.tagline-row1 {
+	font-size: 36px; 
+	line-height: 36px;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+}
+
+.tagline-row2 {
+	line-height: 22px;
+	color: rgb(68, 68, 68);
+	
+}
+
+.catalog-title {
+	font-size: 55px; 
+	line-height: 55px;
+	color: rgb(0, 0, 0);
+	font-weight: medium;
+}
+
+.filter-title {
+	font-size: 18px; 
+	line-height: 30px;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+}
+
+.sorting-title {
+	font-size: 18px; 
+	line-height: 18px;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+}
+
+
+
+
+
