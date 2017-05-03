@@ -9,7 +9,7 @@
 
 
 			<header class="main-header">			
-				<div class="conteiner">
+				<div class="container">
           <div class="main-header-top">
             <div class="catalog-logo">
               <a href="#">
@@ -46,11 +46,12 @@
 
 
 			<main class="content">
-        <div class="conteiner">
+        <div class="container">
           <div class="side-left">
             <div class="filter">
               <form class="filter-form" action="https://echo.htmlacademy.ru" method="get"> <!-- попробовал испрвить-->              
-                <div class="filter-value" >
+               
+                <div class="filter-box" >
                   <h3 class="filter-title">Стоимость:</h3>                                
                   <input type="range" name="grid" >
                     <span class="money-right">
@@ -63,7 +64,7 @@
                     </span>                 
                 </div>
 
-                <div class="filter-grid">   
+                <div class="filter-box">   
                   <h3 class="filter-title">Сетка:</h3>               
                   <label>
                     <input type="radio" name="grid" checked="">
@@ -79,7 +80,7 @@
                   </label>                 
                 </div>
 
-                <div class="filter-features">
+                <div class="filter-box">
                   <h3 class="filter-title">Особенности</h3>                
                   <label>
                     <input type="checkbox" name="Слайдер" checked="">
@@ -112,34 +113,21 @@
          
           <div class="side-right">
 
-            <div class="sorting">
-              <div class="sorting-left">
-                <div class="sorting-title">
-                  <span>СОРТИРОВАТЬ:</span>
-                </div>               
+            <div class="sorting">                           
+              <span class="sorting-title">СОРТИРОВАТЬ:</span>                            
+              
+
+              <div class="sorting-type">                              
+                <a href="#">По цене</a>
+                <a href="#">По типу</a>
+                <a href="#">По названию</a>               
               </div>
 
-              <form class="sorting-right"  action="https://echo.htmlacademy.ru" method="get">
-                  <div class="sorting-right-type">                  
-                    <label>
-                      <input type="radio" name="sorting" checked="">
-                      <span>По цене</span>
-                      </label>
-                    <label>
-                      <input type="radio" name="sorting" >
-                      <span>По типу</span>
-                    </label>
-                    <label>
-                      <input type="radio" name="sorting" >
-                      <span>По названию</span>
-                    </label>                   
-                  </div>
-
-                <div class="sorting-right-switch">                  
-                  <input class="switch-bottom" type="radio" name="switch" checked="">                   
-                  <input class="switch-top" type="radio" name="switch" >             
+                <div class="sorting-direct">                  
+                  <a href="#">down</a>
+                  <a href="#">up</a>           
                 </div>                
-              </form>                            
+                                        
             </div>
 
             <div class="goods-list">             
@@ -254,7 +242,7 @@
             <img src="img/map.jpg" alt="Карта" width="1440" height="415">
           </div> 
           <div class="footer-adresse">
-            <div class="conteiner">
+            <div class="container">
               <b class="footer-adresse-name">NЁRDS DESIGN STUDIO</b>
               <p class="footer-adresse-street">191186, Санкт-Петербург,  ул. Б. Конюшенная, д. 19/8</p>
               <p class="footer-adresse-phone">  тел. +7 (812)275-75-75</p>
@@ -272,6 +260,7 @@
 				        <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
                 <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
                 <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+             </div>   
                 
 			       <div class="footer-tagline">
 				        <p class="tagline-row1">Давайте дружить, это выгодно!</p>
