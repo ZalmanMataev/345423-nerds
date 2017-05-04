@@ -71,6 +71,149 @@ body {
 }
 
 
+/*Сетка*/
+
+.main-header {
+	padding-top: 50px;
+	background-color: #eeeeee; 
+}
+
+.container {
+	width: 1160px;
+	padding: 0px 20px;
+	margin: 0 auto;
+}
+
+.main-header-top {
+	width: 1160px;
+	/*min-height: 115px;*/
+
+}
+
+.catalog-logo {
+	width: 160px;
+	float: left;
+	margin-right: 40px;
+	background-color: #eeeeee; 
+}
+
+.main-navigation {
+	width: 760px;
+	float: left;
+	margin-right: 40px;
+	margin-top: 25px;
+	background-color: #eeeeee;
+}
 
 
+
+.header-basket {
+	width: 160px;
+	float: right;
+	text-align: right;
+	margin-top: 25px;
+	background-color: #eeeeee;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.main-header-bottom {
+	width: 1160px;
+	/*min-height: 430px;*/
+
+}
+
+.slider-text {
+	width: 400px;
+	float: left;
+	padding-top: 26px; /*Что то не верно в макете значение 87px*/
+
+}
+
+.slider-img {
+	width: 760px;
+	float: right;
+	
+}
+
+.features {
+	padding-top: 80px; /*Что то не верно в макете значение 80px*/
+	padding-bottom: 80px;
+}
+
+.features-item {
+	width: 300px;
+	float: left;
+	margin-right: 100px;
+}
+
+.features-item:last-child {
+  margin-right: 60px;
+}
+
+.promotion-row {
+	min-height: 265px;
+}
+
+.promotion-left {
+	width: 660px;
+	float: left;
+}
+
+.promotion-right {
+	width: 380px;
+	float: right;
+}
+
+.projects {
+	min-height: 180px;
+}
+
+.main-footer {
+	padding-bottom: 84px;	
+}
+
+.main-footer-top {
+	min-height: 420px;
+}
+
+.main-footer-bottom {
+	min-height: 216px;
+}
+
+.footer-social {
+	width: 260px;
+	float: left;
+	margin-right: 140; 
+}
+
+.footer-tagline {
+	width: 560px;
+	float: left;
+}
+
+.catalog-title {
+	text-align: center;
+}
+
+.filter {
+ 	float: left;
+ 	width: 260px;
+ }
+
+.side-right {
+ 	float: right;
+ 	width: 760px;
+ }
+
+
+.goods-item {
+ 	display: inline-block;
+ 	width: 360px;
+ 	margin-right: 40px;
+ }	
 
