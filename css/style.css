@@ -3,10 +3,13 @@ body {
 	line-height: 24px;
 	color: rgb(40, 49, 54);
 	font-weight: normal;
-	font-family: Roboto, sans-serif;
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+	padding: 0;	
+	min-width: 1200px;
 
 }
-
+ 
 .index-content-title {
 	font-size: 55px;
 	line-height: 55px;
@@ -71,13 +74,12 @@ body {
 }
 
 
+
 /*Сетка*/
 
 .main-header {
-	padding-top: 50px;
-	background-color: #eeeeee; 
+	background-color: #eeeeee; 	
 }
-
 .container {
 	width: 1160px;
 	padding: 0px 20px;
@@ -85,35 +87,71 @@ body {
 }
 
 .main-header-top {
-	width: 1160px;
-	/*min-height: 115px;*/
-
+	padding-top: 50px;
 }
 
 .catalog-logo {
 	width: 160px;
 	float: left;
 	margin-right: 40px;
-	background-color: #eeeeee; 
 }
 
 .main-navigation {
 	width: 760px;
 	float: left;
-	margin-right: 40px;
-	margin-top: 25px;
-	background-color: #eeeeee;
+	margin-top: 10px;
 }
 
+.main-navigation li {
+ 	display: inline-block;
+ 	vertical-align: top;
+    padding: 0;
+    margin: 0;
+}
 
+.main-navigation a,
+.header-basket     {              
+    display: block;
+    color: #000000;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-weight: 500;
+    text-decoration: none;
+}
 
 .header-basket {
 	width: 160px;
 	float: right;
 	text-align: right;
-	margin-top: 25px;
-	background-color: #eeeeee;
+	margin-top: 26px;
+    /*padding-right: 0;*/
+    /*margin-top: 17px;*/
 }
+
+ /*a .header-basket:hover {
+    color: #fb565a;
+}
+
+a .header-basket:active {
+    color: rgba(0, 0, 0, 30);
+}
+
+a .header-basket:visited {
+
+}*/
+
+.slider-img {
+	max-width:760px;
+	height: auto;
+}
+
+
+
+
+
+
+
+
 
 .clearfix::after {
 	content: "";
